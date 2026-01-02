@@ -1,15 +1,15 @@
-{
-  "name": "twitter-clone",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.4.1"
-  }
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	fmt.Println("Sistem şu anda bakımda...")
+	fmt.Println("Lütfen daha sonra tekrar deneyiniz.")
+
+	for {
+		time.Sleep(10 * time.Second)
+	}
 }
